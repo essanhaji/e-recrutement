@@ -1,0 +1,672 @@
+@media all and (min-width:992px) and (max-width:1200px) {
+    .navbar .navbar-nav>li>a {
+        padding: 5px
+    }
+    section#latest-news .blog-post .post-info:after,
+    section#latest-news .blog-post .post-info:before {
+        display: none
+    }
+}
+
+@media (max-width:992px) {
+    .navbar-header,
+    .navbar-toggle {
+        float: right !important
+    }
+    .cart-item .proceed-checkout,
+    .company-profile .profile-descr,
+    .header3 .top-bar,
+    .header3 .top-bar .social-btns,
+    .navbar .navbar-nav>li.mobile-title,
+    div#main-nav ul li.login-btn a,
+    section#job-page .company-info .job-company-info,
+    section#job-post h2,
+    section.cariera-app,
+    section.job-header {
+        text-align: center
+    }
+    nav.navbar {
+        padding: 0
+    }
+    .navbar-brand img {
+        height: 34px
+    }
+    .navbar-toggle {
+        display: block !important;
+        border-color: #443088 !important;
+        margin-top: 15px;
+        margin-right: 0
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #443088
+    }
+    .navbar-toggle:focus,
+    .navbar-toggle:hover {
+        background: 0 0 !important
+    }
+    .navbar-collapse {
+        display: none
+    }
+    div#main-nav {
+        max-height: 100% !important;
+        height: 100% !important;
+        border: 0;
+        overflow-y: scroll !important
+    }
+    div#main-nav ul.nav.navbar-nav {
+        height: 100%;
+        margin: 0;
+        width: 100%
+    }
+    div#main-nav ul li {
+        width: 100%
+    }
+    div#main-nav ul li a {
+        padding: 10px 30px;
+        z-index: 100;
+        display: block;
+        border-bottom: 1px solid #e3e3e3
+    }
+    div#main-nav ul li:last-child a {
+        border-bottom: 0
+    }
+    div#main-nav ul li.open>a,
+    div#main-nav ul li>a:hover {
+        color: #666 !important
+    }
+    div#main-nav ul li a i {
+        display: inline-block;
+        float: right
+    }
+    .navbar .navbar-nav>li.mobile-title {
+        display: block;
+        text-transform: uppercase;
+        color: #666;
+        padding: 25px 0;
+        border-bottom: 1px solid #e3e3e3
+    }
+    div#main-nav ul li.login-btn {
+        margin: 25px 0 0
+    }
+    div#main-nav ul li.login-btn a {
+        width: 75%;
+        margin: 0 auto
+    }
+    div#main-nav ul li.login-btn a:hover {
+        color: #f6f6f6 !important
+    }
+    div#main-nav ul li.login-btn a i {
+        float: none;
+        padding-right: 5px
+    }
+    .header2 nav {
+        padding: 20px 0
+    }
+    .header2 .navbar-header {
+        display: inline-block;
+        float: none !important;
+        vertical-align: top;
+        width: 100%;
+        padding-top: 20px
+    }
+    .header2 .navbar-header .navbar-toggle {
+        float: none !important;
+        margin: 0 auto
+    }
+    #main-nav .navbar-nav .dropdown .dropdown-menu {
+        display: none;
+        position: relative;
+        width: 100%;
+        max-width: 100% !important;
+        background: #f0f0f0;
+        border-radius: 0 !important;
+        border: 0;
+        float: none;
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+        left: 0;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0)
+    }
+    #main-nav .navbar-nav .dropdown.open .dropdown-menu {
+        display: block;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0)
+    }
+    #main-nav .navbar-nav .dropdown .dropdown-menu li a {
+        color: #999 !important;
+        padding: 10px 0 10px 45px !important;
+        border: 0 !important
+    }
+    #main-nav .navbar-nav .dropdown-menu>li>a i {
+        right: 30px !important
+    }
+    #main-nav .navbar-nav .simple-menu .dropdown-menu>.dropdown-submenu.open a i {
+        transform: rotate(90deg)
+    }
+    #main-nav .navbar-nav .mega-menu .dropdown-menu li,
+    #main-nav .navbar-nav .mega-menu.open .dropdown-menu .mega-menu-inner,
+    #main-nav .navbar-nav .mega-menu.open .dropdown-menu .mega-menu-inner ul li {
+        padding: 0
+    }
+    #main-nav .navbar-nav .mega-menu.open .dropdown-menu .mega-menu-inner ul li.menu-title {
+        background: #e3e3e3;
+        color: #666;
+        padding: 10px 45px;
+        margin: 0;
+        border: 0
+    }
+    #main-nav .navbar-nav .mega-menu.open .dropdown-menu .mega-menu-inner ul li a {
+        font-size: 12px;
+        color: #999 !important;
+        padding-left: 60px !important
+    }
+    #main-nav .navbar-nav .simple-menu .dropdown-menu>.dropdown-submenu>a {
+        background: #e3e3e3;
+        color: #666 !important
+    }
+    #main-nav .navbar-nav .dropdown-menu>.dropdown-submenu>.dropdown-menu {
+        top: 0;
+        left: 0 !important;
+        visibility: visible;
+        display: none;
+        position: relative;
+        width: 100%;
+        max-width: 100% !important;
+        background: #f0f0f0;
+        border-radius: 0 !important;
+        border: 0;
+        float: none;
+        padding: 0;
+        margin: 0;
+        box-shadow: none
+    }
+    #main-nav .navbar-nav .dropdown-menu>.dropdown-submenu.open>.dropdown-menu {
+        display: block
+    }
+    #main-nav .navbar-nav .dropdown-menu>.dropdown-submenu.open>.dropdown-menu li a {
+        font-size: 12px;
+        padding-left: 60px !important
+    }
+    .collapse {
+        display: block !important
+    }
+    .cbp-spmenu {
+        background: #f6f6f6;
+        position: fixed;
+        padding: 0;
+        margin: 0 !important;
+        overflow-x: hidden;
+        overflow-y: visible;
+        display: block;
+        visibility: visible !important
+    }
+    .cbp-spmenu-vertical {
+        width: 260px;
+        height: 100%;
+        top: 0;
+        z-index: 1000
+    }
+    .cbp-spmenu-horizontal {
+        width: 100%;
+        height: 150px;
+        left: 0;
+        z-index: 1000;
+        overflow: hidden
+    }
+    .cbp-spmenu-horizontal h3 {
+        height: 100%;
+        width: 20%;
+        float: left
+    }
+    .cbp-spmenu-horizontal a {
+        float: left;
+        width: 20%;
+        padding: .8em;
+        border-left: 1px solid #258ecd
+    }
+    .cbp-spmenu-left {
+        left: -260px
+    }
+    .cbp-spmenu-right {
+        right: -260px
+    }
+    .cbp-spmenu-left.cbp-spmenu-open {
+        left: 0
+    }
+    .cbp-spmenu-right.cbp-spmenu-open {
+        right: 0
+    }
+    .cbp-spmenu-top {
+        top: -150px
+    }
+    .cbp-spmenu-bottom {
+        bottom: -150px
+    }
+    .cbp-spmenu-top.cbp-spmenu-open {
+        top: 0
+    }
+    .cbp-spmenu-bottom.cbp-spmenu-open {
+        bottom: 0
+    }
+    .cbp-spmenu-push {
+        overflow-x: hidden;
+        position: relative;
+        left: 0
+    }
+    .cbp-spmenu-push-toright {
+        left: 260px
+    }
+    .cbp-spmenu-push-toleft {
+        left: -260px
+    }
+    .cbp-spmenu,
+    .cbp-spmenu-push {
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease
+    }
+    form.job-search-form .col-sm-12 {
+        padding-top: 15px
+    }
+    form.job-search-form .col-sm-12:first-child {
+        padding-top: 0
+    }
+    section#categories .cat-wrapper {
+        margin-bottom: 40px
+    }
+    section#categories .row .cat-wrapper:nth-child(3),
+    section#categories .row .cat-wrapper:nth-child(4) {
+        margin-bottom: 0
+    }
+    section#job-post .job-post-sidebar {
+        margin-top: 60px
+    }
+    .gmaps,
+    section#latest-news2 .blog-post-featured {
+        margin-top: 40px
+    }
+    section#latest-news .col-md-4.col-xs-12 {
+        margin-bottom: 60px
+    }
+    section#latest-news .col-md-4.col-xs-12:nth-child(4) {
+        margin-bottom: 0
+    }
+    section#latest-news .blog-post .post-info:after,
+    section#latest-news .blog-post .post-info:before {
+        display: none
+    }
+    section#latest-news .blog-post .post-info {
+        padding: 40px;
+        text-align: center
+    }
+    footer .footer-info .col-sm-6.col-xs-6 {
+        margin-bottom: 60px
+    }
+    .footer4 .footer-info .col-sm-6.col-xs-6,
+    footer .footer-info .col-sm-6.col-xs-6:nth-child(3),
+    footer .footer-info .col-sm-6.col-xs-6:nth-child(4) {
+        margin-bottom: 0
+    }
+    footer .footer-info .footer-posts {
+        clear: both
+    }
+    .gmaps #map {
+        width: 100%
+    }
+    section.job-header .btn-blue {
+        float: none !important;
+        margin-top: 40px
+    }
+    section#job-page .company-info .job-company {
+        margin: 0 auto
+    }
+    section#candidate-profile .candidate-profile .profile-descr,
+    section#job-page .job-sidebar {
+        margin-top: 60px
+    }
+    section#page-not-found {
+        background: #fff
+    }
+    section#candidate-profile .profile-info li {
+        width: 49%
+    }
+    section#company-profile .company-profile .profile-photo {
+        width: 50%;
+        margin: 0 auto
+    }
+    .company-profile .profile-descr {
+        margin-top: 60px
+    }
+    section#company-profile2 .company-profile .profile-descr {
+        margin-top: 0
+    }
+    section#company-profile .profile-info li {
+        width: 30%
+    }
+    section.search-jobs .job-post-sidebar {
+        margin-bottom: 80px
+    }
+    section.about-us .about-video {
+        margin-top: 60px
+    }
+    section.about-process .col-md-4 {
+        margin-bottom: 60px
+    }
+    section.about-process .col-md-4:last-child {
+        margin-bottom: 0
+    }
+    .pricing-table {
+        margin-top: 80px
+    }
+    .pricing-table:first-child {
+        margin-top: 0
+    }
+    section#version1.blog-listing article.blog-post .blog-thumbnail img {
+        height: 350px
+    }
+    section#version1.blog-listing article.blog-post .blog-desc {
+        padding-left: 0;
+        margin-top: 40px
+    }
+    .blog-sidebar,
+    .shop-sidebar {
+        margin-top: 80px
+    }
+    section#blog-post .post-content-wrapper {
+        padding: 0
+    }
+    section#blog-post ul.social li {
+        margin-bottom: 20px
+    }
+    section#blog-post .post-quote blockquote {
+        padding: 100px 0
+    }
+    .cart-item .proceed-checkout {
+        margin-top: 20px
+    }
+    .cart-total {
+        margin-top: 60px
+    }
+    .cart-total h4 {
+        padding: 20px !important
+    }
+    section.shop .collapse {
+        display: none !important
+    }
+    section.shop .collapse.in {
+        display: block !important
+    }
+}
+
+@media all and (max-width:767px) {
+    section#categories .row .cat-wrapper:nth-child(3),
+    section#countup .container>div {
+        margin-bottom: 40px
+    }
+    footer .copyright,
+    section.get-started {
+        text-align: center
+    }
+    section#main h1 {
+        font-size: 45px
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none
+    }
+    section#categories .category .category-descr {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2)
+    }
+    section#countup .container>div:last-child {
+        margin-bottom: 0
+    }
+    .testimonial .owl-item .item .review blockquote {
+        padding: 80px 40px
+    }
+    section.get-started a {
+        margin-top: 30px
+    }
+    footer .footer-info .footer-newsletter .supporter-image {
+        margin: 15px !important
+    }
+    footer .social-btns {
+        text-align: center !important
+    }
+    section.page-header2,
+    section.page-header2 .breadcrumb,
+    section.page-header3,
+    section.page-header3 .breadcrumb {
+        text-align: center
+    }
+    .coming-soon {
+        background: -moz-linear-gradient(to right, #29b2fe -20%, #443088 120%);
+        background: -webkit-linear-gradient(to right, #29b2fe -20%, #443088 120%);
+        background: linear-gradient(to right, #29b2fe -20%, #443088 120%)
+    }
+    .coming-main .mailchimp .form-group button,
+    .coming-main .mailchimp .form-group input {
+        display: inline-block
+    }
+    table.cart .quantity .minus,
+    table.cart .quantity .plus,
+    table.cart .quantity .qty {
+        float: none;
+        width: 100%
+    }
+}
+
+@media all and (max-width:580px) {
+    .job-post-wrapper .single-job-post>div,
+    section.company-jobs .single-job-post>div,
+    section.find-candidate .candidate-wrapper .single-candidate>div {
+        width: 100%;
+        text-align: center
+    }
+    .job-post-wrapper .single-job-post .job-category,
+    section.company-jobs .single-job-post .job-category {
+        float: none
+    }
+    .job-post-wrapper .single-job-post {
+        padding: 30px 15px
+    }
+    .job-post-wrapper .single-job-post .job-info,
+    .job-post-wrapper .single-job-post .job-title,
+    .job-post-wrapper .single-job-post>div:last-child {
+        padding: 0
+    }
+    .job-post-wrapper .single-job-post .job-company {
+        margin: 0 auto
+    }
+    section#latest-news .blog-post .post-info {
+        padding: 40px 20px
+    }
+    footer .footer-info .col-sm-6.col-xs-6 {
+        width: 100%
+    }
+    .footer4 .footer-info .col-sm-6.col-xs-6:nth-child(1),
+    footer .footer-info .col-sm-6.col-xs-6:nth-child(3) {
+        margin-bottom: 60px
+    }
+    section.find-candidate form div:first-child {
+        width: 100%
+    }
+    section.find-candidate form div:last-child {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px
+    }
+    section.find-candidate .candidate-wrapper .single-candidate {
+        padding: 30px 15px
+    }
+    section.find-candidate .candidate-wrapper .single-candidate .candidate-img {
+        margin: 0 auto
+    }
+    section.find-candidate .candidate-wrapper .single-candidate .candidate-cta {
+        float: none;
+        padding: 0
+    }
+    section#company-profile .company-profile .profile-photo {
+        width: 100%
+    }
+    section#company-profile .company-profile>div:first-child {
+        width: 100%;
+        margin-left: 0
+    }
+    section#company-profile .profile-info li {
+        width: 100%
+    }
+    section.company-jobs .single-job-post {
+        padding: 30px 15px
+    }
+    section.company-jobs .single-job-post .job-info,
+    section.company-jobs .single-job-post .job-title,
+    section.company-jobs .single-job-post>div:last-child {
+        padding: 0
+    }
+    section.company-jobs .single-job-post .job-company {
+        margin: 0 auto
+    }
+    #blog-comments .comments-list .comment-replies {
+        margin-left: -50px
+    }
+    #blog-comments .comments-list .comment-replied:before {
+        content: '\f148';
+        font-family: fontawesome;
+        position: absolute;
+        left: 20px;
+        font-size: 28px;
+        transform: scaleX(-1);
+        color: #999;
+        opacity: .5
+    }
+}
+
+@media all and (max-width:480px) {
+    section#candidate-profile .profile-title,
+    section#version4.search-jobs .item-block .job-post-header,
+    section.education .item-block .education-header,
+    section.work-experience .item-block .experience-header {
+        text-align: center
+    }
+    .coming-main .mailchimp .form-group button,
+    .coming-main .mailchimp .form-group input,
+    section#candidate-profile .profile-info li,
+    section.portfolio .portfolio-grid .element {
+        width: 100%
+    }
+    section#latest-news2 .blog-post .post-info,
+    section#latest-news2 .blog-post-featured .post-info {
+        padding-left: 20px
+    }
+    section#latest-news2 .blog-post-featured {
+        height: 400px
+    }
+    .coming-main h3 {
+        padding-top: 20px
+    }
+    .coming-main .mailchimp .form-group button {
+        margin-left: 0;
+        margin-top: 10px
+    }
+    .skill-bar-percent {
+        display: none
+    }
+    section.education .item-block .education-header img {
+        float: none;
+        margin: 0
+    }
+    section.education .item-block .education-header>div {
+        margin-top: 20px
+    }
+    section.education .item-block .education-header>div h5 {
+        padding-top: 10px
+    }
+    section.education .item-block .education-header h6 {
+        float: none !important;
+        padding-top: 20px;
+        line-height: 1 !important
+    }
+    section.work-experience .item-block .experience-header img {
+        float: none;
+        display: block;
+        margin: 0 auto
+    }
+    section.work-experience .item-block .experience-header>div {
+        margin-top: 20px;
+        display: block
+    }
+    section.work-experience .item-block .experience-header h6 {
+        float: none !important;
+        padding-top: 10px;
+        line-height: 1 !important
+    }
+    section#version4.search-jobs .item-block .job-post-header img {
+        float: none;
+        display: block;
+        margin: 0 auto
+    }
+    section#version4.search-jobs .item-block .job-post-header>div {
+        margin-top: 20px;
+        display: block
+    }
+    section#version4.search-jobs .item-block .job-post-header>ul {
+        float: none !important;
+        padding: 0;
+        text-align: center;
+        margin-top: 20px
+    }
+    section#version4.search-jobs .item-block .job-post-footer>div {
+        padding: 5px 0
+    }
+    .product-wrapper .comments-list .comment-body .comment-rating {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 5px 0
+    }
+}
+
+@media all and (max-width:420px) {
+    section#login .login-box form {
+        padding: 40px 20px
+    }
+    section#login .login-box form .col-xs-6 {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px
+    }
+}
+
+@media all and (max-width:380px) {
+    section.cariera-app .app-wrapper {
+        height: 200px
+    }
+}
+
+@media all and (max-width:350px) {
+    ul.pagination li a {
+        margin-bottom: 15px;
+        display: inline-block
+    }
+    .featured-job-info .job-title a,
+    .featured-job-info .job-title h5 {
+        float: none !important
+    }
+    #blog-comments .comments-list .comment-body .comment-reply {
+        margin: 0
+    }
+}
